@@ -1,6 +1,4 @@
-import speech_recognition as sr
-from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer
-import torch
+from transformers import pipeline
 import pyttsx3
 from vosk import Model, KaldiRecognizer
 import pyaudio
